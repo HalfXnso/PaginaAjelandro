@@ -1,0 +1,93 @@
+body {
+  font-family: "Kanit", sans-serif;
+}
+#modal-content {
+  display: none;
+}
+.iconoCerrar {
+  position: absolute;
+  top: 0;
+  right: 2px;
+}
+
+.modal {
+  top: 1;
+  width: 95%;
+  margin-top: 2%;
+  background-color: rgb(0, 0, 255);
+  height: 80vh;
+  display: none;
+  position: absolute;
+}
+#modal-content4 h2{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+}
+svg {
+  stroke: black;
+}
+#boton0 {
+  background-color: red;
+}
+#boton1 {
+  background-color: orange;
+}
+#boton2 {
+  background-color: yellow;
+}
+#boton3 {
+  background-color: rgb(47, 255, 141);
+}
+#boton4 {
+  background-color: rgb(0, 81, 255);
+}
+#boton0:active {
+  background-color: rgb(134, 0, 0);
+}
+#boton1:active {
+  background-color: rgb(179, 96, 1);
+}
+#boton2:active {
+  background-color: rgb(218, 218, 2);
+}
+#boton3:active {
+  background-color: rgb(2, 165, 116);
+}
+#boton4:active {
+  background-color: rgb(2, 30, 153);
+}
+
+#menu {
+  background-color: white;
+  z-index: 1;
+  height: 60px;
+  border: 2px solid black;
+  position: fixed;
+  width: 95%;
+  margin-bottom: 50%;
+}
+#menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  transition: 0.3s ease-out;
+}
+
+#menu ul li:hover {
+  transform: rotate(360deg);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
