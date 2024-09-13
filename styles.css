@@ -1,31 +1,32 @@
 body {
   font-family: "Kanit", sans-serif;
 }
-#modal-content0 {
-  display: none;
-}
+
 .iconoCerrar {
   backdrop-filter: blur(6px);
   position: fixed;
-  width: 96%;
+  width: 95.5%;
   text-align: end;
   background-color: rgba(0, 0, 0, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 20px;
 }
 .tier {
   display: flex;
   justify-content: center;
   margin-bottom: 5%;
 }
-#emoji{
+#emoji {
   width: 50%;
 }
 .modal {
-  top: 18%;
+  top: 19%;
+  color: white;
   border: 1px solid black;
   border-radius: 10px;
   width: 96%;
-  background-color: #c5bbbb;
-  height: 85vh;
+  background-color: #1a1a17;
+  height: 80vh;
   display: none;
   position: fixed;
   overflow: scroll;
@@ -41,23 +42,26 @@ h2 {
   justify-content: center;
   border: 1px solid white;
 }
-svg {
-  stroke: black;
+.modal svg {
+  stroke: #faf1f1;
+}
+.modal svg:hover {
+  stroke: red;
 }
 #boton0 {
-  background-color: red;
+  background-color: #ff7f7f;
   height: 80px;
 }
 #boton1 {
-  background-color: orange;
+  background-color: #ffbf7f;
   height: 80px;
 }
 #boton2 {
-  background-color: yellow;
+  background-color: #ffdf7f;
   height: 80px;
 }
 #boton3 {
-  background-color: rgb(47, 255, 141);
+  background-color: #bfff7f;
   height: 80px;
 }
 #boton4 {
@@ -113,27 +117,27 @@ a {
   text-decoration: none;
   color: black;
 }
-.tuOpinion{
+.tuOpinion {
   border: 1px solid red;
-text-align: center;
+  text-align: center;
 
-margin-top: 5%;
-text-transform: uppercase;
-font-weight: bold;
+  margin-top: 5%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-.socials{
+.socials {
   display: flex;
   justify-content: space-around;
 }
-.socials img{
+.socials img {
   width: 15%;
   transition: 0.3s ease-in-out;
 }
 
-.socials img:hover{
-transform: scale(1.2);
+.socials img:hover {
+  transform: scale(1.2);
 }
-.textoModal{
+.textoModal {
   margin-top: 8%;
   padding: 5%;
 }
