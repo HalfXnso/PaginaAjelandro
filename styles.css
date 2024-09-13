@@ -1,47 +1,68 @@
 body {
   font-family: "Kanit", sans-serif;
 }
-#modal-content {
+#modal-content0 {
   display: none;
 }
 .iconoCerrar {
-  position: absolute;
-  top: 0;
-  right: 2px;
+  backdrop-filter: blur(6px);
+  position: fixed;
+  width: 96%;
+  text-align: end;
+  background-color: rgba(0, 0, 0, 0);
 }
-
+.tier {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+#emoji{
+  width: 50%;
+}
 .modal {
-  top: 1;
-  width: 95%;
-  margin-top: 2%;
-  background-color: rgb(0, 0, 255);
-  height: 80vh;
+  top: 18%;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 96%;
+  background-color: #c5bbbb;
+  height: 85vh;
   display: none;
-  position: absolute;
+  position: fixed;
+  overflow: scroll;
 }
-#modal-content4 h2{
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    border: 1px solid white;
+h2 {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+}
+#modal-content4 h2 {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
 }
 svg {
   stroke: black;
 }
 #boton0 {
   background-color: red;
+  height: 80px;
 }
 #boton1 {
   background-color: orange;
+  height: 80px;
 }
 #boton2 {
   background-color: yellow;
+  height: 80px;
 }
 #boton3 {
   background-color: rgb(47, 255, 141);
+  height: 80px;
 }
 #boton4 {
   background-color: rgb(0, 81, 255);
+  height: 80px;
 }
 #boton0:active {
   background-color: rgb(134, 0, 0);
@@ -62,6 +83,7 @@ svg {
 #menu {
   background-color: white;
   z-index: 1;
+  margin-top: -1.8%;
   height: 60px;
   border: 2px solid black;
   position: fixed;
@@ -90,4 +112,28 @@ svg {
 a {
   text-decoration: none;
   color: black;
+}
+.tuOpinion{
+  border: 1px solid red;
+text-align: center;
+
+margin-top: 5%;
+text-transform: uppercase;
+font-weight: bold;
+}
+.socials{
+  display: flex;
+  justify-content: space-around;
+}
+.socials img{
+  width: 15%;
+  transition: 0.3s ease-in-out;
+}
+
+.socials img:hover{
+transform: scale(1.2);
+}
+.textoModal{
+  margin-top: 8%;
+  padding: 5%;
 }
