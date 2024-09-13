@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(230, 230, 230);
   font-family: "Kanit", sans-serif;
 }
 
@@ -11,21 +12,42 @@ body {
   border: 0px solid rgba(0, 0, 0, 0);
   border-radius: 20px;
 }
+.botones {
+  color: white;
+  height: 80vh;
+  display: flex;
+  padding: 2%;
+  margin-top: 20%;
+  gap: 1rem;
+  background-color: #1a1a17;
+  border: 1px solid black;
+  border-radius: 5px;
+  flex-direction: column;
+}
 .tier {
   display: flex;
   justify-content: center;
   margin-bottom: 5%;
 }
+.queEs{
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  padding: 2%;
+  background-color: #1a1a17 ;
+}
 #emoji {
   width: 50%;
 }
 .modal {
-  top: 19%;
+  top: 9%;
   color: white;
   border: 1px solid black;
   border-radius: 10px;
   width: 96%;
-  background-color: #1a1a17;
+  background-color: #1a1a17e3;
+  backdrop-filter: blur(3px);
   height: 80vh;
   display: none;
   position: fixed;
@@ -48,6 +70,7 @@ h2 {
 .modal svg:hover {
   stroke: red;
 }
+
 #boton0 {
   background-color: #ff7f7f;
   height: 80px;
@@ -85,14 +108,15 @@ h2 {
 }
 
 #menu {
-  background-color: white;
+  background-color: #1a1a17;
   z-index: 1;
-  margin-top: -1.8%;
+  top:0;
+  border: 1px solid black;
+  border-radius: 5px;
   height: 60px;
   border: 2px solid black;
   position: fixed;
   width: 95%;
-  margin-bottom: 50%;
 }
 #menu ul {
   display: flex;
