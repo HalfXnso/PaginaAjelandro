@@ -24,7 +24,7 @@ body {
   border-radius: 5px;
   flex-direction: column;
 }
-.botones h1{
+.botones h1 {
   margin: 0;
   padding: 2%;
 }
@@ -56,8 +56,7 @@ body {
   border-radius: 10px;
   width: 96%;
   background-color: #1a1a17dd;
-  backdrop-filter: blur(8px);
-  height: 80vh;
+  height: 84vh;
   display: none;
   position: fixed;
   overflow: scroll;
@@ -168,11 +167,11 @@ a {
   width: 15%;
   transition: 0.3s ease-in-out;
 }
-#linkedin{
+#linkedin {
   transform: scale(1.5);
 }
-#linkedin:hover{
-  transform: scale(2.0);
+#linkedin:hover {
+  transform: scale(2);
 }
 
 .socials img:hover {
@@ -191,7 +190,7 @@ a {
   color: white;
 }
 .opinion {
-  border: 1px solid rgba(0, 0, 0, 0.074);
+  border: 1px solid rgba(0, 0, 0, 0.26);
   padding: 4%;
   margin-top: 4%;
   border-radius: 5px;
